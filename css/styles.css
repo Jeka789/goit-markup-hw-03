@@ -7,10 +7,40 @@ body {
 ol, 
 ul {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
 }
 
 a {
     text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+.conteiner {
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-conteiner {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
 }
 
 .logo {
@@ -23,12 +53,25 @@ a {
     color: #4d5ae5;
 }
 
+.header-logo {
+    padding: 24px 0;
+    margin-right: 76px;
+}
+
 .header-logo .logo-part {
     color: #2e2f42;
 }
 
 .page-footer {
+    display: flex;
+    display: block;
+    align-items: center;
     background-color: #2e2f42;
+}
+
+.foot-logo-pag {
+    padding-top: 100px;
+    padding-bottom: 16px;
 }
 
 .footer-logo .logo-part {
@@ -40,9 +83,19 @@ a {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     font-size: 16px;
+    padding-bottom: 100px;
+    max-width: 264px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 
 .nav-link {
+    display: block;
+    padding: 24px 0;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -52,9 +105,18 @@ a {
 
 .contacts {
     font-style: normal;
+    margin-left: auto;
+}
+
+.contacts-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 
 .contacts-link {
+    display: block;
+    padding: 24px 0;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -68,6 +130,12 @@ a {
     color: #404bbf;
 }
 
+.hero-conteiner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .hero-section {
     background-color: #2e2f42;
 }
@@ -78,6 +146,15 @@ a {
     letter-spacing: 0.02em;
     color: #fff;
     font-size: 56px;
+    padding-top: 188px;
+    padding-bottom: 48px;
+    max-width: 496px;
+}
+
+.btn-fl {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
 }
 
 .hero-btn {
@@ -89,11 +166,34 @@ a {
     font-size: 16px;
     background-color: #4d5ae5;
     cursor: pointer;
+    padding: 16px 32px;
+    border-radius: 4px;
+    margin-bottom: 188px;
 }
-
+  
 .hero-btn:hover,
 .hero-btn:focus {
     background-color: #404bbf;
+}
+
+.solution-list {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 120px 0;
+    margin-right: 0;
+}
+
+.team-conteiner {
+    display: flex;
+    align-items: center;
+}
+
+.team-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 120px;
+    gap: 24px;
 }
 
 .sect-team {
@@ -101,7 +201,15 @@ a {
 }
 
 .team-item {
+    border-radius: 0 0 4px 4px;
     background-color: #fff;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+    padding-bottom: 120px;
 }
 
 .sect-title {
@@ -110,6 +218,8 @@ a {
     color: #2e2f42;
     font-size: 36px;
     text-transform: capitalize;
+    padding-top: 120px;
+    padding-bottom: 72px;
 }
 
 .sect-subtitle {
@@ -118,9 +228,12 @@ a {
     letter-spacing: 0.02em;
     color: #2e2f42;
     font-size: 20px;
+    padding-top: 32px;
 }
 
 .sect-desc {
+    padding-top: 8px;
+    padding-bottom: 32px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-size: 16px;
@@ -128,5 +241,9 @@ a {
 
 .cent-r {
     text-align: center;
+}
+
+.pad-subtitle {
+    padding-top: 32px;
 }
 
