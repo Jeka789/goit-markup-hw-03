@@ -175,7 +175,7 @@ img {
 }
 
 .visually-hidden {
-    visibility: hidden;
+    display: none;
 }
 
 .solutions-list {
