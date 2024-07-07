@@ -63,15 +63,13 @@ img {
 }
 
 .page-footer {
-    display: flex;
-    display: block;
-    align-items: center;
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 
 .foot-logo-pag {
-    padding-top: 100px 0;
-    padding-bottom: 16px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-logo .logo-part {
@@ -83,7 +81,6 @@ img {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     font-size: 16px;
-    padding-bottom: 100px;
     max-width: 264px;
 }
 
@@ -244,6 +241,12 @@ img {
     gap: 48px 24px;
 }
 
+.portfolio-item-sd {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
 .sect-title {
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -259,7 +262,7 @@ img {
     letter-spacing: 0.02em;
     color: #2e2f42;
     font-size: 20px;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .sect-desc {
